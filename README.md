@@ -1,3 +1,3 @@
-## vehikl-app
+# vehikl-app
 
-# clone of `https://vehikl.com/team`
+## clone of `https://vehikl.com/team`
