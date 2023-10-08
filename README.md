@@ -1,3 +1,9 @@
-# vehikl-app
+# Vehikl Website Clone
 
-## clone of `https://vehikl.com/team`
+### Technologies used :-
+
+React + TypeScript + Tailwind + Vite
+
+Orginal site :- [Vehikl Home Page](https://vehikl.com/)
+
+Clone site :- [Working in Progress]
