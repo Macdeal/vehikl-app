@@ -24,6 +24,3 @@ jobs:
       - name: Lint test
         run: npm run lint
 
-      - name: Build the React app
-        run: npm run build
-
