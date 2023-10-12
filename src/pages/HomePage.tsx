@@ -1,9 +1,9 @@
 import EventCard from '../component/EventCard';
 
-const HomePage = () => {
+const HomePage = () => (
   <div>
     <EventCard />
-  </div>;
-};
+  </div>
+);
 
 export default HomePage;
