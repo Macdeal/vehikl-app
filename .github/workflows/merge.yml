@@ -1,7 +1,7 @@
 name: Build and Deploy React App
 
 on:
-  push:
+  pull_request:
     branches:
       - main  # Change this to your main branch name
 
@@ -23,3 +23,4 @@ jobs:
 
       - name: Build the React app
         run: npm run build
+
