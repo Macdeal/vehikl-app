@@ -5,4 +5,5 @@ const HomePage = () => {
     <EventCard />
   </div>;
 };
+
 export default HomePage;
