@@ -1,5 +1,3 @@
-function EventCard() {
-  return <div>hello-world</div>;
-}
+const EventCard = () => <div>hello-world</div>;
 
 export default EventCard;
