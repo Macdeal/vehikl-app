@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Lint the code
+      - name: Lint test
         run: npm run lint
 
       - name: Build the React app
