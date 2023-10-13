@@ -1,3 +1,3 @@
-const EventCard = () => <div>hello-world</div>;
+const EventCard = () => <div>Event card</div>;
 
 export default EventCard;
