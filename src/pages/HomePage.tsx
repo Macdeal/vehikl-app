@@ -1,4 +1,4 @@
-import EventCard from "../component/EventCard";
+import EventCard from '../component/EventCard';
 
 const HomePage = () => (
 	<div>

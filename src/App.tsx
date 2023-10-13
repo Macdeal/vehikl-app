@@ -1,7 +1,7 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import HomePage from "./pages/HomePage";
-import ROUTES from "./constants/routes";
+import HomePage from './pages/HomePage';
+import ROUTES from './constants/routes';
 
 const App: React.FC = () => (
 	<BrowserRouter>
