@@ -1,9 +1,11 @@
 import EventCard from '../component/EventCard';
+import Header from '../components/Header';
 
 const HomePage = () => (
-  <div>
-    <EventCard />
-  </div>
+	<div>
+		<Header />
+		<EventCard />
+	</div>
 );
 
 export default HomePage;
