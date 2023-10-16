@@ -1,9 +1,6 @@
 import classNames from 'classnames';
 
-enum Variation {
-  Primary = 'section-title',
-  secondary = 'card-title',
-}
+import { EventVariation } from '../../data';
 
 interface EventTitleProps {
   text: string;
@@ -14,8 +11,8 @@ const EventTitle = ({ text, variation }: EventTitleProps) => {
   const eventTitleStyle = classNames(
     'font-semibold w-fit h-fit text-white mb-8 relative after:absolute after:contents-[] after:-bottom-3 after:w-1/2 after:h-[0.45rem] after:rounded-lg after:bg-orange-500',
     {
-      'text-4xl after:left-1/4': variation === Variation.Primary,
-      'text-3xl after:left-0': variation === Variation.secondary,
+      'text-4xl after:left-1/4': variation === EventVariation.Primary,
+      'text-3xl after:left-0': variation === EventVariation.secondary,
     }
   );
 
