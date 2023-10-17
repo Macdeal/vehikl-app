@@ -1,18 +1,13 @@
-import EventCard from '../container/EventCard';
+import { tempEventCardCollectionData } from '../data';
+
+import EventCardCollection from '../container/EventCardCollection';
 import Header from '../components/Header';
 
-import { tempEventCardData } from '../data'; //
-
 const HomePage = () => (
-  <div>
-    <Header />
-    <EventCard
-      content={tempEventCardData.content}
-      imageURL={tempEventCardData.imgURL.gpub}
-      link={tempEventCardData.link}
-      title={tempEventCardData.title}
-    />
-  </div>
-);
+    <div>
+      <Header />
+      <EventCardCollection cardData={tempEventCardCollectionData} />
+    </div>
+  );
 
 export default HomePage;
