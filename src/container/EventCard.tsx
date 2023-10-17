@@ -1,4 +1,4 @@
-import EventTitle from '../components/EventTitle';
+import EventTitle from '../components/EventTitle/EventTitle';
 import { EventVariation } from '../data';
 
 export interface EventCardProps {
