@@ -1,6 +1,13 @@
 import EventTitle from '../components/eventTitle/EventTitle';
+import { EventVariation } from '../data';
 
-import { EventCardProps } from '../type';
+export interface EventCardProps {
+  content: string;
+  imageURL: string;
+  link: string;
+  title: string;
+  variation?: string;
+}
 
 const EventCard = ({
   content,
@@ -20,5 +27,9 @@ const EventCard = ({
       </a>
     </div>
   );
+
+EventCard.defaultProps = {
+  variation: EventVariation.secondary
+}
 
 export default EventCard;
