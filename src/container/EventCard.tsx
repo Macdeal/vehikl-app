@@ -20,6 +20,7 @@ const EventCard = ({
       <div className="bg-gray-800 h-48 flex items-center justify-center rounded mb-6 p-4">
         <img className="w-32 max-h-24" src={imageURL} alt={title} />
       </div>
+      {/* TODO: need to revert hardcodeed value after the availability of proper data. */}
       <EventTitle text={title} variation={variation || 'card-title'} />
       <div className="mb-8 text-base text-white/70">{content}</div>
       <a href="/" className="mt-8 text-orange-500 font-light hover:underline ">
