@@ -5,6 +5,7 @@ export default {
 		extend: {
 			colors: {
 				"gery-text": "#d1d5db",
+				brand: "#dd5f13",
 			},
 		},
 	},
