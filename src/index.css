@@ -13,6 +13,8 @@
 body {
 	font-family: inter, sans-serif;
 	line-height: 1.5;
+	background-color: rgb(17 24 39);
+	color: #9ca3af;
 }
 
 @layer components {
