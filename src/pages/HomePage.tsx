@@ -1,7 +1,8 @@
-import EventCard from '../container/EventCard';
-import Header from '../components/Header';
+import EventCard from "../container/EventCard";
+import Header from "../components/Header";
 
-import { tempEventCardData } from '../data'; //
+import { tempEventCardData, advisorsCardData } from "../data"; //
+import AdvisorsCard from "../components/advisorsCard/AdvisorsCard";
 
 const HomePage = () => (
   <div>
@@ -11,6 +12,12 @@ const HomePage = () => (
       imageURL={tempEventCardData.imgURL.gpub}
       link={tempEventCardData.link}
       title={tempEventCardData.title}
+    />
+    <AdvisorsCard
+      imageURL={advisorsCardData.imageURL}
+      name={advisorsCardData.name}
+      position={advisorsCardData.position}
+      socials={advisorsCardData.socials}
     />
   </div>
 );
