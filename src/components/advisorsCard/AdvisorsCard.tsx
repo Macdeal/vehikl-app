@@ -27,4 +27,5 @@ const AdvisorsCard = ({
     </div>
   );
 };
+
 export default AdvisorsCard;

@@ -1,8 +1,8 @@
-import EventCard from "../container/EventCard";
-import Header from "../components/Header";
+import EventCard from '../container/EventCard';
+import Header from '../components/Header';
 
-import { tempEventCardData, advisorsCardData } from "../data"; //
-import AdvisorsCard from "../components/advisorsCard/AdvisorsCard";
+import { tempEventCardData, advisorsCardData } from '../data'; //
+import AdvisorsCard from '../components/advisorsCard/AdvisorsCard';
 
 const HomePage = () => (
   <div>
