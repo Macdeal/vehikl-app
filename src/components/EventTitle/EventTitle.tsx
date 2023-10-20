@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 
-import { EventVariation } from '../data';
+import { EventVariation } from '../../data';
 
 interface EventTitleProps {
   text: string;
