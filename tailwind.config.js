@@ -5,6 +5,8 @@ export default {
     extend: {
       colors: {
         "dark-orange": "#ff731f",
+        "gery-text": "#d1d5db",
+				brand: "#dd5f13",
       },
     },
   },

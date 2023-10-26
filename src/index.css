@@ -19,7 +19,7 @@ body {
 
 @layer components {
 	.layout {
-		@apply container;
+		@apply container mx-auto;
 	}
 }
 
