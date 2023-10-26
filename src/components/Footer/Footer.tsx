@@ -5,7 +5,7 @@ import Logo from '../../assets/header/logo.svg?react';
 import Podcast from '../../assets/footer/podcast.svg?react'
 import Twitter from '../../assets/footer/twitter.svg?react'
 import YouTube from '../../assets/footer/youtube.svg?react'
-import EventTitle from '../eventTitle/EventTitle';
+import EventTitle from '../EventTitle';
 import FooterData from '../../dummydata/Footer';
 import { EventVariation } from '../../data';
 
